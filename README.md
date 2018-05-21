@@ -4,19 +4,19 @@
 ## How to use
   there are some function to help you.
   
-1. bind
+### 1. bind
   when you have finished your code,you can bind your function directly.It can be like this:
   funcContainer.bind('function name', function(args1,args2....){....});
 
-2. trigger
+### 2. trigger
   you can trigger your function when you have bound your function:
     funcContainer.trigger('function name', args....);
 
-3. remove
+### 3. remove
   if you don't need the function,you can also remove it:
   funcContainer.remove('function name');
   
-4. removeAll
+### 4. removeAll
   if you want to delete all the function in the funcContainer:
   funcContainer.removeAll();
   
